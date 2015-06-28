@@ -1,0 +1,46 @@
+@font-face {
+  font-family: 'Allura';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Allura'), url('../fonts/Allura-Regular.otf') format('truetype');
+}
+
+/* Hero */
+.hero{
+    font-family: 'Allura', serif;
+    font-size:24px;
+    position:relative;
+    padding-top:35%;
+}
+.hero-wrap{
+	position:absolute;
+	top:0;
+	right:0;
+	left:0;
+	bottom:0;
+	background:url(../images/hero.jpg) no-repeat;
+	background-size:cover;
+	-webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+    opacity: 0.5;
+}
+.hero-header{
+	position: absolute;
+  	top: 0;
+  	width:100%;
+  	text-align:center;
+}
+
+/* Content */
+.content{
+	padding-top:5em;
+}
+.port-img{
+	border-radius:100%;
+	margin-bottom:1.3em;
+	border:1px #ccc solid;
+	width:100%;
+}
