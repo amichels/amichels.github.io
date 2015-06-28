@@ -13,6 +13,13 @@
 </head>
 
 <body>
+
+	<div class="container" ng-app="myApp" ng-controller="Example">
+		<div ng-repeat="p in pics | orderBy:orderBy">
+			<img src="{{p.images.standard_resolution.url}}" title=""/>
+		</div>
+	</div>
+
 	<script src="js/angular.min.js"></script>
   	<script src="js/app.js"></script>
 </body>
