@@ -22,6 +22,7 @@
 		<div class="content">
 			<section class="grid grid-pad">
 				<div class="info col-3-12">
+					<img class="info-profile-img" src="{{pics[1].user.profile_picture}}" title=""/>
 			    	<ul class="info-list">
 						<li class="info-item">Drawing</li>
 						<li class="info-item">Graphic Design</li>
@@ -29,6 +30,7 @@
 			    	<ul>
 			    </div>
 			    <div class="portfolio col-9-12">
+			    	<h2>Work</h2>
 			       	<div class="port-item col-3-12" ng-repeat="p in pics | orderBy:orderBy">
 						<img class="port-img" src="{{p.images.standard_resolution.url}}" title=""/>
 					</div>
