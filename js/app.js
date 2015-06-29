@@ -28,7 +28,7 @@ angular.module("myApp", ["ngRoute"])
         controller  : 'detailsController'
     })
   })
-  .controller("mainController", function($scope, $interval, instagram) {
+  .controller("mainController", function($scope, $interval, $location, instagram) {
     $scope.pics = [];
     $scope.have = [];
     $scope.orderBy = "-likes.count";
@@ -46,4 +46,7 @@ angular.module("myApp", ["ngRoute"])
       $location.path(view); // path not hash
     }
     $scope.getMore();
+  })
+  .controller("detailsController", function($scope, $interval, instagram) {
+    
   });
