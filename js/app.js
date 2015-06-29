@@ -42,5 +42,8 @@ angular.module("myApp", ["ngRoute"])
         }
       });
     };
+    $scope.changeView = function(view){
+      $location.path(view); // path not hash
+    }
     $scope.getMore();
   });
