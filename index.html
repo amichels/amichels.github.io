@@ -5,6 +5,7 @@
   <meta charset="utf-8">
 
   <title>Portfolio</title>
+  <link href='http://fonts.googleapis.com/css?family=Lato:100,400' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="css/simplegrid.css">
   <link rel="stylesheet" href="css/styles.css">
 
@@ -19,27 +20,13 @@
 			<div class="hero-wrap"></div>
 			<h1 class="hero-header">Gabby Defonso</h1>
 		</div>
-		<div class="content">
-			<section class="grid grid-pad">
-				<div class="info col-3-12">
-					<img class="info-profile-img" src="{{pics[1].user.profile_picture}}" title=""/>
-			    	<ul class="info-list">
-						<li class="info-item">Drawing</li>
-						<li class="info-item">Graphic Design</li>
-						<li class="info-item">T-shirt Design</li>
-			    	<ul>
-			    </div>
-			    <div class="portfolio col-9-12">
-			    	<h2>Work</h2>
-			       	<div class="port-item col-3-12" ng-repeat="p in pics | orderBy:orderBy">
-						<img class="port-img" src="{{p.images.standard_resolution.url}}" title=""/>
-					</div>
-			    </div>
-			</section>
+		<div class="content" ng-view>
+			
 		</div>
 	</div>
 
 	<script src="js/angular.min.js"></script>
+	<script src="js/angular-routes.js"></script>
   	<script src="js/app.js"></script>
 </body>
 </html>

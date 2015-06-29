@@ -1,4 +1,4 @@
-angular.module("myApp", [])
+angular.module("myApp", ["ngRoute"])
   .factory('instagram', ['$http',
     function($http) {
       return {
@@ -13,7 +13,22 @@ angular.module("myApp", [])
       }
     }
   ])
-  .controller("Example", function($scope, $interval, instagram) {
+  .config(function($routeProvider) {
+    $routeProvider
+
+    // route for the home page
+    .when('/', {
+        templateUrl : 'pages/home.html',
+        controller  : 'mainController'
+    })
+
+    // route for the about page
+    .when('/details', {
+        templateUrl : 'pages/details.html',
+        controller  : 'detailsController'
+    })
+  })
+  .controller("mainController", function($scope, $interval, instagram) {
     $scope.pics = [];
     $scope.have = [];
     $scope.orderBy = "-likes.count";
