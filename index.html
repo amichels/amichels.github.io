@@ -1,6 +1,6 @@
 <!doctype html>
 
-<html lang="en">
+<html ng-app="App" >
 <head>
   <meta charset="utf-8">
 
@@ -14,14 +14,19 @@
   <![endif]-->
 </head>
 
-<body>
-	<div class="container" ng-app="myApp" ng-controller="mainController">
+<body ng-controller="mainController">
+	<div class="container">
 		<div class="hero">
 			<div class="hero-wrap"></div>
 			<h1 class="hero-header">Gabby Defonso</h1>
 		</div>
-		<div class="content" ng-view>
-			
+		<div class="content">
+			<section class="grid grid-pad">
+				<div class="info col-3-12">
+					<div ng-include src="'includes/sidebar.html'"></div>
+			    </div>
+			    <div class="portfolio col-9-12" ng-view></div>
+			</section>
 		</div>
 	</div>
 
