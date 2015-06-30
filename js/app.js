@@ -13,36 +13,45 @@ App.factory("fetchPopular", function($http) {
   return (data);
 });
 
-App.factory("fetchPic", function($http) {
-
-  var data = function(callback) {
-    var endPoint = "https://api.instagram.com/v1/media/1017503313991586633_768694115?client_id=48510c6730494f2bb77674473d0eaf42&callback=JSON_CALLBACK";
-
-    $http.jsonp(endPoint).success(function(response) {
-      callback(response.data);
-    });
+App.factory("fetchPic",function($http) {
+  var pic = function(id) {
+    this.initialize = function() {
+      var endPoint = "https://api.instagram.com/v1/media/"+id+"?client_id=48510c6730494f2bb77674473d0eaf42&callback=JSON_CALLBACK";
+      var self = this;
+       
+      // When our $http promise resolves
+      // Use angular.extend to extend 'this'
+      // with the properties of the response
+      $http.jsonp(endPoint).then(function(response) {
+        angular.extend(self, response.data);  
+      });
+    };
+ 
+    // Call the initialize function for every new instance
+    this.initialize();
   };
  
-  return (data);
+  // Return a reference to the function
+  return (pic);
 });
   
 App.config(function($routeProvider) {
   $routeProvider
 
-  // route for the home page
-  .when('/', {
+  .when('/home', {
       templateUrl : 'pages/home.html',
       controller  : 'mainController'
   })
-
-  // route for the about page
-  .when('/details', {
+  .when('/details/:picId', {
       templateUrl : 'pages/details.html',
       controller  : 'detailsController'
   })
+  .otherwise({
+    redirectTo: '/home'
+  });
 })
 
-App.controller("mainController", function($scope, $interval, $location, fetchPopular) {
+App.controller("mainController", function($scope, $interval, fetchPopular) {
   $scope.pics = [];
   $scope.have = [];
   $scope.orderBy = "-likes.count";
@@ -56,18 +65,17 @@ App.controller("mainController", function($scope, $interval, $location, fetchPop
       }
     });
   };
-  $scope.changeView = function(view){
-    $location.path(view); // path not hash
-  }
   $scope.getMore();
 });
 
-App.controller("detailsController", function($scope, $interval, fetchPic) {
+App.controller("detailsController", function($scope, $interval, $routeParams, fetchPic) {
   $scope.pic = [];
-  $scope.getPic = function() {
-    fetchPic(function(data) {
-      $scope.pics.push(data);
-    });
+  $scope.picId = $routeParams.picId;
+
+  $scope.getPic = function(id) {
+    $scope.pic.push(new fetchPic(id));
   };
-  $scope.getPic();
+
+  $scope.getPic($scope.picId);
+  console.log($scope.pic);
 });

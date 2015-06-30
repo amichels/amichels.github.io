@@ -1,4 +1,6 @@
 <h2 class="port-header">Work</h2>
 <div class="port-item col-3-12" ng-repeat="p in pics | orderBy:orderBy">
-	<img class="port-img" src="{{p.images.standard_resolution.url}}" title="" ng-click="changeView('details')"/>
+	<a href="#details/{{p.id}}" title="">
+		<img class="port-img" src="{{p.images.standard_resolution.url}}" title=""/>
+	</a>
 </div>

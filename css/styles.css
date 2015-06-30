@@ -56,6 +56,18 @@ h2{
 	background-color:white;
 }
 
+/* Portfolio View */
+.port-view{
+	text-align:center;
+}
+.pv-image{
+	width:100%;
+	max-width:640px;
+}
+.pv-back{
+	display:block;
+}
+
 /* Info */
 .info{
 	position:relative;
