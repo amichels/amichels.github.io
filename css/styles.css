@@ -7,6 +7,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
   font-weight: normal;
   src: local('Allura'), url('../fonts/Allura-Regular.otf') format('truetype');
 }
+
 body{
 	font-family: 'Lato', sans-serif;
 	font-weight:100;
@@ -14,6 +15,22 @@ body{
 h2{
 	font-family: 'Lato', sans-serif;
 	font-weight:100;
+}
+
+.btn{
+	color: #fff;
+	background-color: #479291;
+  	padding: 1em;
+  	font-size: 24px;
+  	text-decoration: none;
+  	margin-bottom: 1em;
+}
+.btn .fa{
+	margin-right:.5em;
+}
+.lead-btn{
+	float:left;
+	display:block;
 }
 
 /* Hero */
@@ -52,20 +69,15 @@ h2{
 
 /* Content */
 .content{
-	padding-top:5em;
 	background-color:white;
+	padding:5em 0 10em;
 }
 
 /* Portfolio View */
-.port-view{
-	text-align:center;
-}
 .pv-image{
 	width:100%;
 	max-width:640px;
-}
-.pv-back{
-	display:block;
+	float:left;
 }
 
 /* Info */
@@ -99,4 +111,23 @@ h2{
 	border:1px #ccc solid;
 	width:100%;
 	cursor:pointer;
+}
+
+/* Footer */
+.footer{
+	background-color:#ccc;
+	padding:1em;
+}
+.footer-list{
+	text-align:center;
+}
+.footer-list-item{
+	display:inline;
+	font-size:20px;
+	margin-right: .3em;
+}
+.footer-list-link{
+	color:#000;
+	text-decoration:none;
+	font-size:32px;
 }
