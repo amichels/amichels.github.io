@@ -1,5 +1,5 @@
 // .value('$anchorScroll', angular.noop) disables angular autoscroll to top on veiw change
-var App = angular.module("App", ["ngRoute"]).value('$anchorScroll', angular.noop);
+var App = angular.module("App", ["ngRoute", "ngAnimate"]).value('$anchorScroll', angular.noop);
 
 App.filter('currentdate',['$filter',  function($filter) {
     return function() {
@@ -59,6 +59,7 @@ App.config(function($routeProvider) {
 })
 
 App.controller("mainController", function($scope, $interval, fetchPopular, $location) {
+  $scope.pageClass = 'page-home';
   $scope.pics = [];
   $scope.have = [];
   $scope.orderBy = "-likes.count";
@@ -74,13 +75,12 @@ App.controller("mainController", function($scope, $interval, fetchPopular, $loca
   };
   $scope.getMore();
   $scope.changeView = function(path,param,e){
-    console.log(e);
-    e.preventDefault();
     $location.path(path+param);
   };
 });
 
 App.controller("detailsController", function($scope, $interval, $routeParams, fetchPic) {
+  $scope.pageClass = 'page-details';
   $scope.pic = [];
   $scope.picId = $routeParams.picId;
 
@@ -89,5 +89,4 @@ App.controller("detailsController", function($scope, $interval, $routeParams, fe
   };
 
   $scope.getPic($scope.picId);
-  console.log($scope.pic);
 });

@@ -135,3 +135,15 @@ a[ng-click]{
 	text-decoration:none;
 	font-size:32px;
 }
+
+/* Page Animations */
+
+.animation.ng-enter {
+  -webkit-transition: 1s linear all; /* Chrome */
+  transition: 1s linear all;
+  opacity: 0;
+}
+ 
+.animation.ng-enter.ng-enter-active{
+  opacity: 1;
+}
