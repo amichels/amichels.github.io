@@ -17,6 +17,10 @@ h2{
 	font-weight:100;
 }
 
+a[ng-click]{
+  cursor: pointer;
+}
+
 .btn{
 	color: #fff;
 	background-color: #479291;

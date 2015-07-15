@@ -57,7 +57,7 @@ App.config(function($routeProvider) {
   });
 })
 
-App.controller("mainController", function($scope, $interval, fetchPopular) {
+App.controller("mainController", function($scope, $interval, fetchPopular, $location) {
   $scope.pics = [];
   $scope.have = [];
   $scope.orderBy = "-likes.count";
@@ -72,6 +72,10 @@ App.controller("mainController", function($scope, $interval, fetchPopular) {
     });
   };
   $scope.getMore();
+  $scope.changeView = function(path){
+    console.log(path);
+    $location.path(path);
+  };
 });
 
 App.controller("detailsController", function($scope, $interval, $routeParams, fetchPic) {
