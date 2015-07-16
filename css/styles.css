@@ -52,6 +52,8 @@ a[ng-click]{
 /* Content */
 .content{
 	background-color:#E0C3B2;
+  background:url(../images/pattern.png) no-repeat;
+  background-size:cover;
 	padding:5em 0 10em;
 }
 
@@ -85,6 +87,7 @@ a[ng-click]{
   width:33.333333%;
   float:left;
   position:relative;
+  cursor:pointer;
 }
 .port-item:nth-child(3n+2){
   top:-100px;
@@ -92,10 +95,14 @@ a[ng-click]{
 .port-item:nth-child(3n+1){
   top:-25px;
 }
-.port-img{
-	width:100%;
-	cursor:pointer;
-  display:block;
+.port-bg{
+  padding-top:100%;
+  background-size:100%;
+  background-position:center;
+  transition:background-size 2s ease-in;
+}
+.port-bg:hover{
+  background-size:150%;
 }
 
 /* Home Styles */

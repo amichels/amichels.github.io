@@ -1,5 +1,3 @@
 <div class="port-item" ng-repeat="p in pics | orderBy:orderBy">
-	<a ng-click="changeView('/details/',p.id,$event)" title="">
-		<img class="port-img" src="{{p.images.standard_resolution.url}}" title=""/>
-	</a>
+	<div class="port-bg" ng-click="changeView('/details/',p.id,$event)" style="background-image:url({{p.images.standard_resolution.url}})"></div>
 </div>
