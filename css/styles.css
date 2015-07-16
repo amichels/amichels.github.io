@@ -51,10 +51,14 @@ a[ng-click]{
 
 /* Content */
 .content{
-	background-color:#E0C3B2;
-  background:url(../images/pattern.png) no-repeat;
-  background-size:cover;
 	padding:5em 0 10em;
+  position:relative;
+  z-index:200;
+}
+canvas{
+  position: fixed;
+  top: 0;
+  z-index:0;
 }
 
 /* Portfolio View */

@@ -90,3 +90,11 @@ App.controller("detailsController", function($scope, $interval, $routeParams, fe
 
   $scope.getPic($scope.picId);
 });
+
+var pattern = Trianglify({
+  width: window.innerWidth,
+  height: window.innerHeight
+});
+document.body.appendChild(pattern.canvas())
+
+
