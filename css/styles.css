@@ -47,6 +47,7 @@ a[ng-click]{
 .lead-btn{
 	float:left;
 	display:block;
+  width: 100%;
 }
 
 /* Content */
@@ -169,7 +170,6 @@ a[ng-click]{
 		margin:0 auto;
 	}
 	.lead-btn {
-		width: 100%;
 		text-align: center;
 	}
 	.page-home{

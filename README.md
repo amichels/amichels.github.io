@@ -9,5 +9,6 @@
 * Show only items with #portfolio
 * Add social links
 * Rework getMore function
+* BG svg animation
 
  python -m SimpleHTTPServer 8000
