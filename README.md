@@ -11,5 +11,6 @@
 * Rework getMore function
 * BG svg animation
 * Make svg responsive
+* Loading gif until images loads
 
  python -m SimpleHTTPServer 8000
