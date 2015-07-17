@@ -78,6 +78,7 @@ a[ng-click]{
 	width:100%;
 	max-width:640px;
 	float:left;
+	display:block;
 }
 
 /* Header */
@@ -125,19 +126,67 @@ a[ng-click]{
   background-size:150%;
 }
 
-/* Home Styles */
-.page-home{
-  
+/* Footer */
+.footer{
+	padding:3em 1em;
+	float: left;
+	width: 100%;
+	box-sizing: border-box;
+}
+.footer-list{
+	text-align:center;
+}
+.footer-list-item{
+	display:inline;
+	font-size:20px;
+	margin-right: .3em;
+	font-weight:bold;
+}
+.footer-list-link{
+	color:#000;
+	text-decoration:none;
+	font-size:32px;
 }
 
-/* Page Animations */
-
-.view.ng-enter {
-  -webkit-transition: 1s linear all; /* Chrome */
-  transition: 1s linear all;
-  opacity: 0;
+/* Media Query */
+@media (max-width: 800px){
+	.info{
+		width:100%;
+		float:left;
+	}
+	.header{
+		position:static;
+		text-align:center;
+		padding: 0 4em;
+  		margin-bottom: 20%;
+	}
+	.portfolio{
+  		width: 100%;
+	  	float:left;
+	}
+	.pv-image{
+		float:none;
+		margin:0 auto;
+	}
+	.lead-btn {
+		width: 100%;
+		text-align: center;
+	}
+	.page-home{
+		margin-top:10%;
+	}
+	.page-details {
+		margin:0;
+		padding: 1em;
+		box-sizing: border-box;
+	}
 }
- 
-.view.ng-enter.ng-enter-active{
-  opacity: 1;
+
+@media (max-width:400px){
+	.main-header {
+  		font-size: 45px;
+	}
+	.page-home{
+		margin-top:25%;
+	}
 }

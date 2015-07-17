@@ -1,3 +1,4 @@
 <div class="port-item" ng-repeat="p in pics | orderBy:orderBy">
 	<div class="port-bg" ng-click="changeView('/details/',p.id,$event)" style="background-image:url({{p.images.standard_resolution.url}})"></div>
 </div>
+<div ng-include src="'includes/footer.html'"></div>
