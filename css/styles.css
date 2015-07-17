@@ -34,9 +34,9 @@ a[ng-click]{
 }
 
 .btn{
-	color: #fff;
-	background-color: #479291;
-  	padding: 1em;
+	color: #000;
+	font-weight:bold;
+  	margin-bottom:1em;
   	font-size: 24px;
   	text-decoration: none;
   	margin-bottom: 1em;
@@ -55,7 +55,19 @@ a[ng-click]{
   position:relative;
   z-index:200;
 }
-canvas{
+
+/* Home */
+.page-home{
+	margin:5% 5% 0 0;
+}
+
+/* Details */
+.page-details{
+	margin:0 5% 0;
+}
+
+/* Background SVG */
+.bg{
   position: fixed;
   top: 0;
   z-index:0;
@@ -87,6 +99,10 @@ canvas{
 
 
 /* Portfolio */
+.portfolio{
+  width: 50%;
+  float:right;
+}
 .port-item{
   width:33.333333%;
   float:left;
@@ -111,19 +127,17 @@ canvas{
 
 /* Home Styles */
 .page-home{
-  width: 50%;
-  float:right;
-  margin:5% 5% 0 0;
+  
 }
 
 /* Page Animations */
 
-.animation.ng-enter {
+.view.ng-enter {
   -webkit-transition: 1s linear all; /* Chrome */
   transition: 1s linear all;
   opacity: 0;
 }
  
-.animation.ng-enter.ng-enter-active{
+.view.ng-enter.ng-enter-active{
   opacity: 1;
 }

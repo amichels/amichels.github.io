@@ -15,20 +15,19 @@
 </head>
 
 <body ng-controller="mainController">
-	<div class="container">
-		<div class="content cf">
-			<section class="info">
-				<div ng-include src="'includes/sidebar.html'"></div>
-      </section>
-		  <div class="{{pageClass}} portfolio animation" ng-view></div>
-		</div>
+	<div class="content cf">
+		<section class="info">
+			<div ng-include src="'includes/sidebar.html'"></div>
+     	</section>
+		  	<div class="{{pageClass}} portfolio view" ng-view></div>
 	</div>
+	<div id="bg" class="bg"></div>
 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	<script src="https://code.angularjs.org/1.4.3/angular.min.js"></script>
-  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular-route.min.js"></script>
-  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular-animate.min.js"></script>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/trianglify/0.2.0/trianglify.min.js"></script>
-  <script src="js/app.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular-route.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular-animate.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/trianglify/0.2.0/trianglify.min.js"></script>
+	<script src="js/app.js"></script>
 </body>
 </html>

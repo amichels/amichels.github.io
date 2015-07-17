@@ -91,10 +91,28 @@ App.controller("detailsController", function($scope, $interval, $routeParams, fe
   $scope.getPic($scope.picId);
 });
 
-var pattern = Trianglify({
-  width: window.innerWidth,
-  height: window.innerHeight
+// jQuery
+$(document).ready(function(){
+
+  var trianglify = function(){
+    var pattern = Trianglify({
+      width: window.innerWidth,
+      height: window.innerHeight
+    });
+    var bg = $("#bg");
+    bg.empty();
+    bg.append(pattern.svg());
+  }
+
+  // Render triangle bg on page load
+  trianglify();
+
+  $(window).on('resize', function(){
+    var win = $(this),
+      width = win.width(),
+      height = win.height();
+    trianglify();
+  });
 });
-document.body.appendChild(pattern.canvas())
 
 
