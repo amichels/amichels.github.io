@@ -10,5 +10,6 @@
 * Add social links
 * Rework getMore function
 * BG svg animation
+* Make svg responsive
 
  python -m SimpleHTTPServer 8000
