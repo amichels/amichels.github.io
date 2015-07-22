@@ -41,6 +41,24 @@ App.factory("fetchPic",function($http) {
   // Return a reference to the function
   return (pic);
 });
+
+App.factory("fetchMore",function($http) {
+  var pics = function(endPoint) {
+    this.initialize = function() {
+      var self = this;
+       
+      $http.jsonp(endPoint).then(function(response) {
+        angular.extend(self, response.data);
+        console.log(response.data)
+      });
+    };
+ 
+    this.initialize();
+  };
+ 
+  // Return a reference to the function
+  return (pics);
+});
   
 App.config(function($routeProvider) {
   $routeProvider
@@ -58,12 +76,12 @@ App.config(function($routeProvider) {
 
 })
 
-App.controller("mainController", function($scope, $interval, fetchTag, $location) {
+App.controller("mainController", function($scope, $interval, fetchTag, fetchMore, $location) {
   $scope.pageClass = 'page-home';
   $scope.pics = [];
   $scope.have = [];
   $scope.orderBy = "-likes.count";
-  $scope.getMore = function() {
+  $scope.getInit = function() {
     fetchTag(function(data) {
       for (var i = 0; i < data.length; i++) {
         if (typeof $scope.have[data[i].id] === "undefined") {
@@ -72,11 +90,18 @@ App.controller("mainController", function($scope, $interval, fetchTag, $location
         }
       }
     });
+    console.log($scope.pics);
   };
-  $scope.getMore();
+  $scope.getInit();
+
+  $scope.getMore = function(endPoint) {
+    $scope.pics.push(new fetchMore(endPoint));
+  };
+
   $scope.changeView = function(path,param,e){
     $location.path(path+param);
   };
+
 });
 
 App.controller("detailsController", function($scope, $interval, $routeParams, fetchPic) {
