@@ -7,7 +7,7 @@ App.filter('currentdate',['$filter',  function($filter) {
     };
 }])
 
-App.factory("fetchPopular", function($http) {
+App.factory("fetchTag", function($http) {
 
   var data = function(callback) {
     var endPoint = "https://api.instagram.com/v1/users/768694115/media/recent/?client_id=48510c6730494f2bb77674473d0eaf42&callback=JSON_CALLBACK";
@@ -58,13 +58,13 @@ App.config(function($routeProvider) {
 
 })
 
-App.controller("mainController", function($scope, $interval, fetchPopular, $location) {
+App.controller("mainController", function($scope, $interval, fetchTag, $location) {
   $scope.pageClass = 'page-home';
   $scope.pics = [];
   $scope.have = [];
   $scope.orderBy = "-likes.count";
   $scope.getMore = function() {
-    fetchPopular(function(data) {
+    fetchTag(function(data) {
       for (var i = 0; i < data.length; i++) {
         if (typeof $scope.have[data[i].id] === "undefined") {
           $scope.pics.push(data[i]);
