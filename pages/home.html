@@ -1,7 +1,7 @@
-<div class="port-item" ng-repeat="p in pics | orderBy:orderBy">
+<div class="port-item" ng-repeat="p in pics.data | orderBy:orderBy">
 <!--   <div ng-if="p.tags.indexOf('tameimpala') > -1"> -->
     <div class="port-bg" ng-click="changeView('/details/',p.id,$event)" style="background-image:url({{p.images.standard_resolution.url}})"></div>
 <!--   </div> -->
 </div>
-<div class="btn2" ng-click="getMore(p.pagination.next_url)">{{p.pagination.next_url}}</div>
+<div class="btn2" ng-click="getMore(p.pagination.next_url)">Get More</div>
 <div ng-include src="'includes/footer.html'"></div>

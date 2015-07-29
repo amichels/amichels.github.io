@@ -13,7 +13,7 @@ App.factory("fetchTag", function($http) {
     var endPoint = "https://api.instagram.com/v1/users/768694115/media/recent/?client_id=48510c6730494f2bb77674473d0eaf42&callback=JSON_CALLBACK";
 
     $http.jsonp(endPoint).success(function(response) {
-      callback(response.data);
+      callback(response);
     });
   };
  
@@ -49,7 +49,6 @@ App.factory("fetchMore",function($http) {
        
       $http.jsonp(endPoint).then(function(response) {
         angular.extend(self, response.data);
-        console.log(response.data)
       });
     };
  
@@ -78,19 +77,12 @@ App.config(function($routeProvider) {
 
 App.controller("mainController", function($scope, $interval, fetchTag, fetchMore, $location) {
   $scope.pageClass = 'page-home';
-  $scope.pics = [];
-  $scope.have = [];
+  $scope.pics = {};
   $scope.orderBy = "-likes.count";
   $scope.getInit = function() {
     fetchTag(function(data) {
-      for (var i = 0; i < data.length; i++) {
-        if (typeof $scope.have[data[i].id] === "undefined") {
-          $scope.pics.push(data[i]);
-          $scope.have[data[i].id] = "1";
-        }
-      }
+      $scope.pics = data;
     });
-    console.log($scope.pics);
   };
   $scope.getInit();
 
