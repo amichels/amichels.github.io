@@ -43,7 +43,7 @@ App.factory("fetchPic",function($http) {
 });
 
 App.factory("fetchMore",function($http) {
-  var pics = function(id) {
+  var more = function(id) {
     this.initialize = function() {
       var endPoint ="https://api.instagram.com/v1/users/768694115/media/recent?max_id="+id+"&client_id=48510c6730494f2bb77674473d0eaf42&callback=JSON_CALLBACK";
 
@@ -57,7 +57,7 @@ App.factory("fetchMore",function($http) {
   };
  
   // Return a reference to the function
-  return (pics);
+  return (more);
 });
   
 App.config(function($routeProvider) {
@@ -80,7 +80,7 @@ App.controller("mainController", function($scope, $interval, fetchTag, fetchMore
   $scope.pageClass = 'page-home';
   $scope.pics = [];
   $scope.pagination = [];
-  $scope.orderBy = "-likes.count";
+  $scope.temp = [];
   $scope.getInit = function() {
     fetchTag(function(data) {
       $scope.pics = data.data;
@@ -90,9 +90,12 @@ App.controller("mainController", function($scope, $interval, fetchTag, fetchMore
   $scope.getInit();
 
   $scope.getMore = function(id) {
-    var obj = [];
-    obj.push(new fetchMore(id));
-    console.log(obj[0]);
+    $scope.temp.push(new fetchMore(id));
+    for(var i = 0; i < $scope.temp.length; ++i){
+      console.log($scope.temp[i]['data']);
+      for(var key in $scope.temp[i]) {
+      }
+    }
   };
 
   $scope.changeView = function(path,param,e){
