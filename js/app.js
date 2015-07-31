@@ -44,8 +44,9 @@ App.factory("fetchPic",function($http) {
 
 App.factory('fetchMore', function($http) {
 
-  var data = function(callback) {
-    var endPoint = "https://api.instagram.com/v1/users/768694115/media/recent/?client_id=48510c6730494f2bb77674473d0eaf42&callback=JSON_CALLBACK";
+  var data = function(id,callback) {
+
+    var endPoint ="https://api.instagram.com/v1/users/768694115/media/recent?max_id="+id+"&client_id=48510c6730494f2bb77674473d0eaf42&callback=JSON_CALLBACK";
 
     $http.jsonp(endPoint).success(function(response) {
       callback(response);
@@ -85,9 +86,19 @@ App.controller("mainController", function($scope, $interval, fetchTag, fetchMore
   $scope.getInit();
 
   $scope.getMore = function(id) {
-    fetchMore(function(data) {
-      console.log(data);
-    });
+    if(id !== undefined){
+      fetchMore(id,function(response) {
+
+        $scope.pagination.next_max_id = response.pagination.next_max_id;
+
+        for(i=0;i<response.data.length;i++){
+          $scope.pics.push(response.data[i]);
+        }
+
+      });
+    }else{
+      document.getElementById("more-btn").innerHTML = "No more images to load";
+    }
   };
 
   $scope.changeView = function(path,param,e){
@@ -116,6 +127,9 @@ App.animation('.view', function() {
       jQuery(element).animate({
         opacity: 1
       }, done);
+      
+      //Scroll to top of page
+      jQuery('html, body').animate({scrollTop : 0},800);
 
       // optional onDone or onCancel callback
       // function to handle any post-animation
