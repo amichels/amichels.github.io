@@ -8,5 +8,6 @@
 * animate scroll
 * keep loaded images when click back from details page
 * Google analytics
+* link social links
 
  python -m SimpleHTTPServer 8000
