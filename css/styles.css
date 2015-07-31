@@ -61,7 +61,7 @@ a[ng-click]{
 
 /* Content */
 .content{
-	padding:5em 0 10em;
+	padding:5em 0 .5em;
   position:relative;
   z-index:200;
 }
