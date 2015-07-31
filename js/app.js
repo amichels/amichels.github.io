@@ -127,9 +127,6 @@ App.animation('.view', function() {
       jQuery(element).animate({
         opacity: 1
       }, done);
-      
-      //Scroll to top of page
-      jQuery('html, body').animate({scrollTop : 0},800);
 
       // optional onDone or onCancel callback
       // function to handle any post-animation
