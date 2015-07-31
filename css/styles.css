@@ -94,6 +94,9 @@ a[ng-click]{
 	max-width:640px;
 	float:left;
 	display:block;
+	-webkit-box-shadow: 0px 0px 75px 10px rgba(0,0,0,0.32);
+	-moz-box-shadow: 0px 0px 75px 10px rgba(0,0,0,0.32);
+	box-shadow: 0px 0px 75px 10px rgba(0,0,0,0.32);
 }
 
 /* Header */
@@ -124,6 +127,9 @@ a[ng-click]{
   float:left;
   position:relative;
   cursor:pointer;
+  -webkit-box-shadow: 0px 0px 75px 10px rgba(0,0,0,0.32);
+	-moz-box-shadow: 0px 0px 75px 10px rgba(0,0,0,0.32);
+	box-shadow: 0px 0px 75px 10px rgba(0,0,0,0.32);
 }
 .port-item:nth-child(3n+2){
   top:-100px;
