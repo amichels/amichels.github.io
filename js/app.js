@@ -180,7 +180,9 @@ $(document).ready(function(){
   var trianglify = function(){
     var pattern = Trianglify({
       width: window.innerWidth,
-      height: window.innerHeight
+      height: window.innerHeight,
+      x_colors: 'Spectral',
+      cell_size: 40
     });
     var bg = $("#bg");
     bg.empty();
