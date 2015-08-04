@@ -81,6 +81,7 @@ a[ng-click]{
 	color:#000;
 	text-decoration:none;
 	font-size:1em;
+  font-family: inherit;
 }
 .main-menu-link:before{
 	font-size: 1.6em;
@@ -88,6 +89,7 @@ a[ng-click]{
   margin-right: .5em;
   position: relative;
   top: .099em;
+  font-family: FontAwesome;
 }
 
 /* Home */

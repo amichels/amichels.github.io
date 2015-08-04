@@ -11,7 +11,8 @@ Priority
 * Show only items with #portfolio
 * localize js
 * upload to git and set domain
-* browser check
+* IE check
+* Mobile Check
 * Google analytics
 
  python -m SimpleHTTPServer 8000
