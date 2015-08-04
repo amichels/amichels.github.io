@@ -1,5 +1,5 @@
 // .value('$anchorScroll', angular.noop) disables angular autoscroll to top on veiw change
-var App = angular.module("App", ["ngRoute", "ngAnimate"]).value('$anchorScroll', angular.noop);
+var App = angular.module("App", ["ngRoute", "ngAnimate", 'angular-loading-bar']).value('$anchorScroll', angular.noop);
 
 App.filter('currentdate',['$filter',  function($filter) {
     return function() {
