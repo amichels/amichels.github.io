@@ -9,5 +9,6 @@
 * keep loaded images when click back from details page
 * Google analytics
 * link social links
+* animate background on hover
 
  python -m SimpleHTTPServer 8000
