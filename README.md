@@ -2,13 +2,16 @@
 
 # To-do
 * Console error
-* Show only items with #portfolio
-* keep loaded images when click back from details page
-* Google analytics
 * animate background on hover
-* browser check
 * scroll to load more
-* upload to git and set domain
 * Create a contact form
+* pretty urls without 404 error on refresh
+
+Priority
+* Show only items with #portfolio
+* localize js
+* upload to git and set domain
+* browser check
+* Google analytics
 
  python -m SimpleHTTPServer 8000

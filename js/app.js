@@ -74,7 +74,7 @@ App.directive('scrollOnClick', function() {
   }
 });
 
-App.config(function($routeProvider, $locationProvider) {
+App.config(function($routeProvider) {
   $routeProvider
   .when('/', {
       templateUrl : 'pages/home.html',
@@ -89,7 +89,7 @@ App.config(function($routeProvider, $locationProvider) {
   });
 
   // use the HTML5 History API
-  $locationProvider.html5Mode(true);
+  //$locationProvider.html5Mode(true);
 
 })
 

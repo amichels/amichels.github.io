@@ -1,4 +1,4 @@
-<div class="port-item-con cf">
+<div class="port-item-con cf" infinite-scroll="getMore(pagination.next_max_id)" infinite-scroll-distance="3">
 	<div class="port-item js-port-item" ng-repeat="p in pics">
 	<!--   <div ng-if="p.tags.indexOf('tameimpala') > -1"> -->
 	    <div class="port-bg" scroll-on-click="#details" ng-click="changeView('/details/',p.id,$event)" style="background-image:url({{p.images.standard_resolution.url}})"></div>
