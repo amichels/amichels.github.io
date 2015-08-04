@@ -55,8 +55,26 @@ App.factory('fetchMore', function($http) {
  
   return (data);
 });
-  
-App.config(function($routeProvider) {
+
+App.directive('scrollOnClick', function() {
+  return {
+    restrict: 'A',
+    link: function(scope, $elm, attrs) {
+      var idToScroll = attrs.scrollOnClick;
+      $elm.on('click', function() {
+        var $target;
+        if (idToScroll) {
+          $target = $(idToScroll);
+        } else {
+          $target = $elm;
+        }
+        $("body").animate({scrollTop: $target.offset().top}, "slow");
+      });
+    }
+  }
+});
+
+App.config(function($routeProvider, $locationProvider) {
   $routeProvider
   .when('/', {
       templateUrl : 'pages/home.html',
@@ -69,6 +87,9 @@ App.config(function($routeProvider) {
   .otherwise({
     redirectTo: '/home'
   });
+
+  // use the HTML5 History API
+  $locationProvider.html5Mode(true);
 
 })
 

@@ -4,6 +4,8 @@
 <head>
   <meta charset="utf-8">
 
+  <base href="/">
+
   <title>Gabby Defonso</title>
   <link href='http://fonts.googleapis.com/css?family=Lato:100,400' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -18,7 +20,7 @@
 	<div id="content" class="content cf">
 		<div ng-include src="'includes/menu.html'"></div>
 		<section class="info">
-			<div ng-include src="'includes/sidebar.html'"></div>
+			<div id="details" ng-include src="'includes/sidebar.html'"></div>
      	</section>
 		<div class="{{pageClass}} portfolio view" ng-view></div>
 	</div>

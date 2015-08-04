@@ -102,7 +102,7 @@ a[ng-click]{
 
 /* Details */
 .page-details{
-	margin:0 5% 0;
+	margin:5% 5% 0;
 }
 
 /* Background SVG */
@@ -199,11 +199,21 @@ a[ng-click]{
 		width:100%;
 		float:left;
 	}
+	.main-menu{
+		text-align: center;
+  	background-color: #fff;
+  	z-index:200;
+  	padding-bottom:.5em;
+  	width:100%;
+	}
+	.main-menu-item{
+		display:inline-block;
+	}
 	.header{
 		position:static;
 		text-align:center;
-		padding: 0 4em;
-  		margin-bottom: 20%;
+		padding: 11em 4em 0;
+  	margin-bottom: 12%;
 	}
 	.portfolio{
   		width: 100%;
@@ -215,6 +225,7 @@ a[ng-click]{
 	}
 	.lead-btn {
 		text-align: center;
+		width:100%;
 	}
 	.page-home{
 		margin-top:10%;
@@ -225,7 +236,6 @@ a[ng-click]{
 		box-sizing: border-box;
 	}
 }
-
 @media (max-width:400px){
 	.main-header {
   		font-size: 45px;
