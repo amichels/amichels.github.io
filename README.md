@@ -12,6 +12,7 @@
 * Use grunt to minimise js/css
 * Use SASS
 * Clean up app.js
+* fallback if no images ("no images" text, hide more image button and get rid of shadows)
 
 Priority
 * Show only items with #portfolio
