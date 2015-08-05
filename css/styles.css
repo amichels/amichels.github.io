@@ -81,10 +81,11 @@ a[ng-click]{
 .main-menu-link{
 	color:#000;
 	text-decoration:none;
-	font-size:1em;
-  font-family: inherit;
 }
-.main-menu-link:before{
+.main-menu-text{
+	font-size:1em;
+}
+.main-menu-icon{
 	font-size: 1.6em;
   display: inline-block;
   margin-right: .5em;
@@ -368,6 +369,17 @@ a[ng-click]{
 	#loading-bar-spinner .spinner-icon {
 	  border-top-color:  #000;
 	  border-left-color: #000;
+	}
+}
+@media (max-width:600px){
+	.main-menu-text{
+		display:none;
+	}
+	.main-menu-item{
+		margin-right:1em;
+	}
+	.main-menu-item:last-child{
+		margin-right:0;
 	}
 }
 @media (max-width:400px){
