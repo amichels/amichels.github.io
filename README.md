@@ -14,6 +14,5 @@ Priority
 * Mobile
 ** double check auto translate
 * Tablet
-** Header running into menu - 7 inch landscape
 
 python -m SimpleHTTPServer 8000

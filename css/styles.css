@@ -394,3 +394,12 @@ a[ng-click]{
 		margin-top:25%;
 	}
 }
+
+@media (max-height:540px){
+	.main-menu-text{
+		display:none;
+	}
+	.header{
+		padding:3em 5em;
+	}
+}
