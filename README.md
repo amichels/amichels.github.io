@@ -11,7 +11,6 @@ Priority
 * Show only items with #portfolio
 * IE check
 * Ipad Check
-* Google analytics
 * Mobile
 ** double check auto translate
 * Tablet
