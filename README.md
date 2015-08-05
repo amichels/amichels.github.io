@@ -10,7 +10,7 @@
 Priority
 * Show only items with #portfolio
 * localize js
-* upload to git and set domain
+* upload to git and set domain - waiting on DNS change
 * IE check
 * Mobile Check
 * Google analytics
