@@ -10,7 +10,9 @@
 Priority
 * Show only items with #portfolio
 * IE check
-* Mobile Check
+* Ipad Check
 * Google analytics
+* Mobile
+** double check auto translate
 
 python -m SimpleHTTPServer 8000
