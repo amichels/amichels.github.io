@@ -23,6 +23,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 body{
 	font-family: 'Lato', sans-serif;
 	font-weight:100;
+	background-color:#A0B2B1;
 }
 h2{
 	font-family: 'Lato', sans-serif;
@@ -93,7 +94,7 @@ a[ng-click]{
 }
 
 /* Home */
-.page-home{
+.page-home .portfolio{
 	margin:17% 5% 0 0;
 }
 .more-btn{
@@ -103,7 +104,7 @@ a[ng-click]{
 }
 
 /* Details */
-.page-details{
+.page-details .portfolio{
 	margin:5% 5% 0;
 }
 
@@ -330,6 +331,9 @@ a[ng-click]{
 		padding: 11em 4em 0;
   	margin-bottom: 20%;
 	}
+	.page-details .header{
+		display:none;
+	}
 	.portfolio{
   		width: 100%;
 	  	float:left;
@@ -342,10 +346,10 @@ a[ng-click]{
 		text-align: center;
 		width:100%;
 	}
-	.page-home{
+	.page-home .portfolio{
 		margin-top:10%;
 	}
-	.page-details {
+	.page-details .portfolio{
 		margin:0;
 		padding: 1em;
 		box-sizing: border-box;
@@ -369,8 +373,12 @@ a[ng-click]{
 @media (max-width:400px){
 	.main-header {
   		font-size: 45px;
+  		font-weight:400;
 	}
-	.page-home{
+	.sub-header {
+  		font-weight:400;
+	}
+	.page-home .portfolio{
 		margin-top:25%;
 	}
 }

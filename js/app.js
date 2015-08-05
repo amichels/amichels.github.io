@@ -68,7 +68,7 @@ App.directive('scrollOnClick', function() {
         } else {
           $target = $elm;
         }
-        $("body").animate({scrollTop: $target.offset().top}, "slow");
+        $("body").animate({scrollTop: $target.offset().top-150}, "slow");
       });
     }
   }

@@ -13,9 +13,6 @@ Priority
 * Ipad Check
 * Google analytics
 * Mobile
-** click to scroll not working
-** trianglify background not full height
 ** double check auto translate
-** header text might be too thin
 
 python -m SimpleHTTPServer 8000
