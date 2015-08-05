@@ -19,13 +19,13 @@
   <![endif]-->
 </head>
 
-<body ng-controller="mainController" class="{{pageClass}}">
+<body ng-controller="mainController">
 	<div id="content" class="content cf">
 		<div ng-include src="'includes/menu.html'"></div>
 		<section class="info">
 			<div ng-include src="'includes/sidebar.html'"></div>
     </section>
-		<div id="portfolio" class="portfolio view" ng-view></div>
+		<div id="portfolio" class="portfolio view {{pageClass}}" ng-view></div>
 	</div>
 	<div id="bg" class="bg"></div>
 
