@@ -9,7 +9,6 @@
 
 Priority
 * Show only items with #portfolio
-* localize js
 * IE check
 * Mobile Check
 * Google analytics
