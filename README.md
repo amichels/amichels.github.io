@@ -9,8 +9,6 @@
 
 Priority
 * Show only items with #portfolio
-* localize js
-* upload to git and set domain
 * IE check
 * Mobile Check
 * Google analytics
