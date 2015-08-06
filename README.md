@@ -17,5 +17,6 @@
 Priority
 * Show more images than 6 (have temp solution for now)
 * Get a slick tees page set up
+* Sites's loading duplicate images
 
 python -m SimpleHTTPServer 8000
