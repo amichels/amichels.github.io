@@ -15,6 +15,6 @@
 * fallback if no images ("no images" text, hide more image button and get rid of shadows)
 
 Priority
-* Show only items with #portfolio
+* Show more images than 6
 
 python -m SimpleHTTPServer 8000
