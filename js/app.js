@@ -84,6 +84,10 @@ App.config(function($routeProvider) {
       templateUrl : 'pages/details.html',
       controller  : 'detailsController'
   })
+  .when('/slick-tees', {
+      templateUrl : 'pages/slick.html',
+      controller  : 'slickController'
+  })
   .otherwise({
     redirectTo: '/home'
   });
@@ -96,11 +100,18 @@ App.config(function($routeProvider) {
 App.controller("mainController", function($scope, $interval, fetchTag, fetchMore, $location) {
   $scope.pageClass = 'page-home';
   $scope.pics = [];
+  $scope.tags = [];
   $scope.pagination = [];
   $scope.temp = [];
   $scope.getInit = function() {
     fetchTag(function(data) {
       $scope.pics = data.data;
+      for(i=0;i<$scope.pics.length;i++){
+        if($scope.pics[i].tags.indexOf('portfolio') > -1){
+          $scope.tags.push($scope.pics[i]);
+        }
+      }
+      console.log($scope.tags);
       $scope.pagination = data.pagination;
     });
   };
@@ -113,8 +124,11 @@ App.controller("mainController", function($scope, $interval, fetchTag, fetchMore
         $scope.pagination.next_max_id = response.pagination.next_max_id;
 
         for(i=0;i<response.data.length;i++){
-          $scope.pics.push(response.data[i]);
+          if(response.data[i].tags.indexOf('portfolio') > -1){
+            $scope.tags.push(response.data[i]);
+          }
         }
+        console.log($scope.tags);
 
       });
     }else{
