@@ -111,7 +111,6 @@ App.controller("mainController", function($scope, $interval, fetchTag, fetchMore
           $scope.tags.push($scope.pics[i]);
         }
       }
-      console.log($scope.tags);
       $scope.pagination = data.pagination;
     });
   };
@@ -128,7 +127,6 @@ App.controller("mainController", function($scope, $interval, fetchTag, fetchMore
             $scope.tags.push(response.data[i]);
           }
         }
-        console.log($scope.tags);
 
       });
     }else{
