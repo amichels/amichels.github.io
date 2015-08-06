@@ -112,6 +112,11 @@ App.controller("mainController", function($scope, $interval, fetchTag, fetchMore
         }
       }
       $scope.pagination = data.pagination;
+
+      // temp solution to auto load more images
+      $scope.getMore($scope.pagination.next_max_id);
+      $scope.getMore($scope.pagination.next_max_id);
+
     });
   };
   $scope.getInit();
