@@ -15,6 +15,6 @@
 * fallback if no images ("no images" text, hide more image button and get rid of shadows)
 
 Priority
-* Show more images than 6
+* Show more images than 6 (have temp solution for now)
 
 python -m SimpleHTTPServer 8000
