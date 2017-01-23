@@ -1,19 +1,61 @@
 .sidebar {
-  width: 50%;
-  float: left;
+  width: 100%;
+  @include breakpoint(screen-lg) {
+    width: 50%;
+    float: left;
+  }
+  @include breakpoint(screen-xl) {
+    width: 33.3333%;
+  }
 }
 /* Nav */
 .nav {
-  padding: 3em 4em;
-  position:fixed;
-  top:0;
-  left:0;
+  padding: 1em;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  text-align: center;
+  background-color: $white;
+  border-bottom: 1px solid $light-gray;
+  overflow-x: scroll;
+  white-space: nowrap;
+  @include breakpoint(screen-sm) {
+    background-color: none;
+    border: none;
+    padding: 3em 4em;
+    position: static;
+    width: 50%;
+    float: left;
+    text-align: left;
+    overflow-x: auto;
+    white-space: normal;
+  }
+  @include breakpoint(screen-lg) {
+    position:fixed;
+    top:0;
+    left:0;
+    width: auto;
+  }
   &-link {
     color: $black;
     font-size: 1.5em;
-    display: block;
-    margin-bottom: 1em;
+    display: inline-block;
     text-decoration: none;
+    margin-right: 1em;
+    &:last-child {
+      margin-right: 0;
+    }
+    @include breakpoint(screen-sm) {
+      display: block;
+      text-align: right;
+      font-size: 2em;
+      margin-right: 0;
+      margin-bottom: 1em;
+    }
+    @include breakpoint(screen-lg) {
+      text-align: left;
+      font-size: 1.5em;
+    }
     &:hover {
       text-decoration: underline;
     }
@@ -22,18 +64,29 @@
 
 /* Header */
 .header{
-  position:fixed;
-  bottom:0;
-  left:0;
-  padding:3em 4em;
+  width: 100%;
+  padding: 5em 1em 2em;
+  text-align: center;
+  @include breakpoint(screen-sm) {
+    width: 50%;
+    float: left;
+    padding:3em 4em;
+    text-align: left;
+  }
+  @include breakpoint(screen-lg) {
+    position:fixed;
+    bottom:0;
+    left:0;
+    width: auto;
+  }
 }
 .main-header{
-  font-size:72px;
+  font-size:4.5em;
   margin:0 0 .3em -.15em;
   font-weight: 100;
 }
 .sub-header{
-  font-size:24px;
+  font-size:1.5em;
   margin:0 0 1.5em;
   letter-spacing:.3em;
 }

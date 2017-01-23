@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 body {
 	font-family: 'Lato', sans-serif;
 	padding: 0;
@@ -14,7 +17,13 @@ p{
   font-size: 1.2em;
 }
 .right-sec {
-  width: 50%;
-  float:right;
   padding: 1em;
+  width: 100%;
+  @include breakpoint(screen-lg) {
+    width: 50%;
+    float:right;
+  }
+  @include breakpoint(screen-xl) {
+    width: 66.6666%;
+  }
 }
