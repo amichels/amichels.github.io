@@ -1,12 +1,10 @@
 .portfolio{
   width: 50%;
   float:right;
-  float: right;
-  height: 100vh;
-  overflow-y: scroll;
+  column-gap: 1em;
+  column-count: 3;
   &-img {
-    width:33.333333%;
-    float:left;
+    width:100%;
     padding: .5em;
     box-sizing: border-box;
   }

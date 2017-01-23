@@ -1,3 +1,25 @@
+.sidebar {
+  width: 50%;
+  float: left;
+}
+/* Nav */
+.nav {
+  padding: 3em 4em;
+  position:fixed;
+  top:0;
+  left:0;
+  &-link {
+    color: black;
+    font-size: 2em;
+    display: block;
+    margin-bottom: 1em;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
 /* Header */
 .header{
   position:fixed;
