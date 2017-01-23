@@ -7,6 +7,20 @@ body {
   padding: 0;
   margin: 0; }
 
+h1 {
+  font-weight: 100;
+  font-size: 3em;
+  margin: 0 0 .5em 0; }
+
+p {
+  line-height: 1.5em;
+  font-size: 1.2em; }
+
+.right-sec {
+  width: 50%;
+  float: right;
+  padding: 1em; }
+
 .sidebar {
   width: 50%;
   float: left; }
@@ -18,7 +32,7 @@ body {
   top: 0;
   left: 0; }
   .nav-link {
-    color: black;
+    color: #000;
     font-size: 2em;
     display: block;
     margin-bottom: 1em;
@@ -44,15 +58,15 @@ body {
   letter-spacing: .3em; }
 
 .portfolio {
-  width: 50%;
-  float: right;
   -webkit-column-gap: 1em;
      -moz-column-gap: 1em;
           column-gap: 1em;
   -webkit-column-count: 3;
      -moz-column-count: 3;
-          column-count: 3; }
+          column-count: 3;
+  padding: 0; }
   .portfolio-img {
     width: 100%;
-    padding: .5em;
-    box-sizing: border-box; }
+    box-sizing: border-box;
+    border: 1px solid #f1f1f1;
+    margin: .5em 0; }

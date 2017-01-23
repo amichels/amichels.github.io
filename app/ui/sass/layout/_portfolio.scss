@@ -1,11 +1,11 @@
 .portfolio{
-  width: 50%;
-  float:right;
   column-gap: 1em;
   column-count: 3;
+  padding: 0;
   &-img {
     width:100%;
-    padding: .5em;
     box-sizing: border-box;
+    border: 1px solid $light-gray;
+    margin: .5em 0;
   }
 }
