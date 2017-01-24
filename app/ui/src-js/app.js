@@ -1,3 +1,3 @@
 import baguetteBox from 'baguettebox.js';
 
-baguetteBox.run('.gallery');
+baguetteBox.run('.js-portfolio');
