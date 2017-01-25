@@ -118,6 +118,7 @@
     float: left;
     width: 50%;
     padding-right: 2.5em;
+    max-width: 200px;
     @include breakpoint(screen-sm) {
       float: none;
       width: auto;

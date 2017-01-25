@@ -19,6 +19,9 @@ p{
 .right-sec {
   padding: 1em;
   width: 100%;
+  @include breakpoint(screen-sm) {
+    float: left;
+  }
   @include breakpoint(screen-lg) {
     width: 50%;
     float:right;
