@@ -23,7 +23,7 @@ p{
     width: 50%;
     float:right;
   }
-  @include breakpoint(screen-xl) {
+  @include breakpoint(screen-xx) {
     width: 66.6666%;
   }
 }

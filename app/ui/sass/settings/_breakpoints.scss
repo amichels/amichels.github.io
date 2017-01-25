@@ -3,13 +3,15 @@ $screen-sm: 768px;
 $screen-md: 992px;
 $screen-lg: 1024px;
 $screen-xl: 1200px;
+$screen-xx: 1600px;
 
 $breakpoints: (
   'screen-xs'       : $screen-xs,
   'screen-sm'       : $screen-sm,
   'screen-md'       : $screen-md,
   'screen-lg'       : $screen-lg,
-  'screen-xl'       : $screen-xl
+  'screen-xl'       : $screen-xl,
+  'screen-xx'       : $screen-xx
 );
 
 
