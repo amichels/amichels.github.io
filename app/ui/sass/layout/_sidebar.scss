@@ -1,5 +1,9 @@
 .sidebar {
   width: 100%;
+  padding-top: 4em;
+  @include breakpoint(screen-sm) {
+    padding-top: 0;
+  }
   @include breakpoint(screen-lg) {
     width: 50%;
     float: left;
@@ -65,13 +69,17 @@
 /* Header */
 .header{
   width: 100%;
-  padding: 5em 1em 2em;
+  padding: 2em 3em;
   text-align: center;
+  position: relative;
+  @extend %clearfix;
   @include breakpoint(screen-sm) {
     width: 50%;
     float: left;
     padding:3em 4em;
     text-align: left;
+    position: static;
+    padding: 2em 1em;
   }
   @include breakpoint(screen-lg) {
     position:fixed;
@@ -79,14 +87,38 @@
     left:0;
     width: auto;
   }
-}
-.main-header{
-  font-size:4.5em;
-  margin:0 0 .3em -.15em;
-  font-weight: 100;
-}
-.sub-header{
-  font-size:1.5em;
-  margin:0 0 1.5em;
-  letter-spacing:.3em;
+  &-main {
+    font-size: 10vw;
+    font-weight: 100;
+    width: 50%;
+    right: 0;
+    text-align: left;
+    @extend %vertical-align;
+    @include breakpoint(screen-sm) {
+      font-size:4.5em;
+      margin:0 0 .3em -.15em;
+      width: auto;
+      position: static;
+      transform: none;
+    }
+  }
+  &-sub {
+    font-size:1.5em;
+    margin:0 0 1.5em;
+    letter-spacing:.3em;
+    display: none;
+    @include breakpoint(screen-sm) {
+      display: block;
+    }
+  }
+  &-img {
+    float: left;
+    width: 50%;
+    padding-right: 2.5em;
+    @include breakpoint(screen-sm) {
+      float: none;
+      width: auto;
+      padding-right: 0;
+    }
+  }
 }

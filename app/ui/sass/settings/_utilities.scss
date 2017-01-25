@@ -15,3 +15,14 @@
 	width: 100vw;
 	height: 100vh;
 }
+
+%clearfix {
+  *zoom: 1;
+  &:after {
+    clear: both;
+  }
+  &:after, &:before {
+    display: table;
+    content: " ";
+  }
+}
