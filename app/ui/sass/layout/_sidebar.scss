@@ -24,9 +24,8 @@
   overflow-x: scroll;
   white-space: nowrap;
   @include breakpoint(screen-sm) {
-    background-color: none;
+    background-color: transparent;
     border: none;
-    padding: 3em 4em;
     position: static;
     width: 50%;
     float: left;
@@ -50,15 +49,17 @@
       margin-right: 0;
     }
     @include breakpoint(screen-sm) {
+      margin-right: 0;
       display: block;
       text-align: right;
       font-size: 2em;
-      margin-right: 0;
       margin-bottom: 1em;
     }
     @include breakpoint(screen-lg) {
+      display: inline;
       text-align: left;
       font-size: 1.5em;
+      margin-right: 1em;
     }
     &:hover {
       text-decoration: underline;
@@ -76,10 +77,9 @@
   @include breakpoint(screen-sm) {
     width: 50%;
     float: left;
-    padding:3em 4em;
     text-align: left;
     position: static;
-    padding: 2em 1em;
+    padding: 1em;
   }
   @include breakpoint(screen-lg) {
     position:fixed;
@@ -96,10 +96,13 @@
     @extend %vertical-align;
     @include breakpoint(screen-sm) {
       font-size:4.5em;
-      margin:0 0 .3em -.15em;
+      margin:0 0 .3em;
       width: auto;
       position: static;
       transform: none;
+    }
+    @include breakpoint(screen-lg) {
+      margin-left: -.15em;
     }
   }
   &-sub {
