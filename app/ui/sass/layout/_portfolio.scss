@@ -1,6 +1,10 @@
 .portfolio{
   column-gap: 1em;
   column-count: 3;
+  -moz-column-gap: 1em;
+  -moz-column-count: 3;
+  -webkit-column-gap: 1em;
+  -webkit-column-count: 3;
   padding: 0;
   &-img {
     width:100%;
