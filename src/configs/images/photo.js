@@ -1,179 +1,179 @@
 const photoImages = [
     {
-        full:"/images/photo/backpack1.jpg",
-        thumb:"/images/photo/thumbs/backpack1.jpg"
+        full:"/build/images/photo/backpack1.jpg",
+        thumb:"/build/images/photo/thumbs/backpack1.jpg"
     },
     {       
-        full:"/images/photo/backpack2.jpg",
-        thumb:"/images/photo/thumbs/backpack2.jpg"
+        full:"/build/images/photo/backpack2.jpg",
+        thumb:"/build/images/photo/thumbs/backpack2.jpg"
     },
     { 
-        full:"/images/photo/backpack3.jpg",
-        thumb:"/images/photo/thumbs/backpack3.jpg"
+        full:"/build/images/photo/backpack3.jpg",
+        thumb:"/build/images/photo/thumbs/backpack3.jpg"
     },
     { 
-        full:"/images/photo/blackbelt1.jpg",
-        thumb:"/images/photo/thumbs/blackbelt1.jpg"
+        full:"/build/images/photo/blackbelt1.jpg",
+        thumb:"/build/images/photo/thumbs/blackbelt1.jpg"
     },
     { 
-        full:"/images/photo/blackbelt2.jpg",
-        thumb:"/images/photo/thumbs/blackbelt2.jpg"
+        full:"/build/images/photo/blackbelt2.jpg",
+        thumb:"/build/images/photo/thumbs/blackbelt2.jpg"
     },
     { 
-        full:"/images/photo/cat1.jpg",
-        thumb:"/images/photo/thumbs/cat1.jpg"
+        full:"/build/images/photo/cat1.jpg",
+        thumb:"/build/images/photo/thumbs/cat1.jpg"
     },
     {
-        full:"/images/photo/cat2.jpg",
-        thumb:"/images/photo/thumbs/cat2.jpg"
+        full:"/build/images/photo/cat2.jpg",
+        thumb:"/build/images/photo/thumbs/cat2.jpg"
     },
     {
-        full:"/images/photo/cat3.jpg",
-        thumb:"/images/photo/thumbs/cat3.jpg"
+        full:"/build/images/photo/cat3.jpg",
+        thumb:"/build/images/photo/thumbs/cat3.jpg"
     },
     {
-        full:"/images/photo/blue-wool-hat.jpg",
-        thumb:"/images/photo/thumbs/blue-wool-hat.jpg"
+        full:"/build/images/photo/blue-wool-hat.jpg",
+        thumb:"/build/images/photo/thumbs/blue-wool-hat.jpg"
     },
     {
-        full:"/images/photo/boots.jpg",
-        thumb:"/images/photo/thumbs/boots.jpg"
+        full:"/build/images/photo/boots.jpg",
+        thumb:"/build/images/photo/thumbs/boots.jpg"
     },
     {
-        full:"/images/photo/chair.jpg",
-        thumb:"/images/photo/thumbs/chair.jpg"
+        full:"/build/images/photo/chair.jpg",
+        thumb:"/build/images/photo/thumbs/chair.jpg"
     },
     {
-        full:"/images/photo/beads.jpg",
-        thumb:"/images/photo/thumbs/beads.jpg"
+        full:"/build/images/photo/beads.jpg",
+        thumb:"/build/images/photo/thumbs/beads.jpg"
     },
     {
-        full:"/images/photo/denimbag1.jpg",
-        thumb:"/images/photo/thumbs/denimbag1.jpg"
+        full:"/build/images/photo/denimbag1.jpg",
+        thumb:"/build/images/photo/thumbs/denimbag1.jpg"
     },
     {
-        full:"/images/photo/denimbag2.jpg",
-        thumb:"/images/photo/thumbs/denimbag2.jpg"
+        full:"/build/images/photo/denimbag2.jpg",
+        thumb:"/build/images/photo/thumbs/denimbag2.jpg"
     },
     {
-        full:"/images/photo/denimbag3.jpg",
-        thumb:"/images/photo/thumbs/denimbag3.jpg"
+        full:"/build/images/photo/denimbag3.jpg",
+        thumb:"/build/images/photo/thumbs/denimbag3.jpg"
     },
     {
-        full:"/images/photo/denimbag4.jpg",
-        thumb:"/images/photo/thumbs/denimbag4.jpg"
+        full:"/build/images/photo/denimbag4.jpg",
+        thumb:"/build/images/photo/thumbs/denimbag4.jpg"
     },
     {
-        full:"/images/photo/lionbelt1.jpg",
-        thumb:"/images/photo/thumbs/lionbelt1.jpg"
+        full:"/build/images/photo/lionbelt1.jpg",
+        thumb:"/build/images/photo/thumbs/lionbelt1.jpg"
     },
     {
-        full:"/images/photo/lionbelt2.jpg",
-        thumb:"/images/photo/thumbs/lionbelt2.jpg"
+        full:"/build/images/photo/lionbelt2.jpg",
+        thumb:"/build/images/photo/thumbs/lionbelt2.jpg"
     },
     {
-        full:"/images/photo/lionbelt3.jpg",
-        thumb:"/images/photo/thumbs/lionbelt3.jpg"
+        full:"/build/images/photo/lionbelt3.jpg",
+        thumb:"/build/images/photo/thumbs/lionbelt3.jpg"
     },
     {
-        full:"/images/photo/lionbelt4.jpg",
-        thumb:"/images/photo/thumbs/lionbelt4.jpg"
+        full:"/build/images/photo/lionbelt4.jpg",
+        thumb:"/build/images/photo/thumbs/lionbelt4.jpg"
     },
     {
-        full:"/images/photo/lionbelt5.jpg",
-        thumb:"/images/photo/thumbs/lionbelt5.jpg"
+        full:"/build/images/photo/lionbelt5.jpg",
+        thumb:"/build/images/photo/thumbs/lionbelt5.jpg"
     },
     {
-        full:"/images/photo/massager1.jpg",
-        thumb:"/images/photo/thumbs/massager1.jpg"
+        full:"/build/images/photo/massager1.jpg",
+        thumb:"/build/images/photo/thumbs/massager1.jpg"
     },
     {
-        full:"/images/photo/massager2.jpg",
-        thumb:"/images/photo/thumbs/massager2.jpg"
+        full:"/build/images/photo/massager2.jpg",
+        thumb:"/build/images/photo/thumbs/massager2.jpg"
     },
     {
-        full:"/images/photo/massager3.jpg",
-        thumb:"/images/photo/thumbs/massager3.jpg"
+        full:"/build/images/photo/massager3.jpg",
+        thumb:"/build/images/photo/thumbs/massager3.jpg"
     },
     {
-        full:"/images/photo/massager4.jpg",
-        thumb:"/images/photo/thumbs/massager4.jpg"
+        full:"/build/images/photo/massager4.jpg",
+        thumb:"/build/images/photo/thumbs/massager4.jpg"
     },
     {
-        full:"/images/photo/massager5.jpg",
-        thumb:"/images/photo/thumbs/massager5.jpg"
+        full:"/build/images/photo/massager5.jpg",
+        thumb:"/build/images/photo/thumbs/massager5.jpg"
     },
     {
-        full:"/images/photo/et.jpg",
-        thumb:"/images/photo/thumbs/et.jpg"
+        full:"/build/images/photo/et.jpg",
+        thumb:"/build/images/photo/thumbs/et.jpg"
     },
     {
-        full:"/images/photo/gold-box.jpg",
-        thumb:"/images/photo/thumbs/gold-box.jpg"
+        full:"/build/images/photo/gold-box.jpg",
+        thumb:"/build/images/photo/thumbs/gold-box.jpg"
     },
     {
-        full:"/images/photo/gray-heels.jpg",
-        thumb:"/images/photo/thumbs/gray-heels.jpg"
+        full:"/build/images/photo/gray-heels.jpg",
+        thumb:"/build/images/photo/thumbs/gray-heels.jpg"
     },
     {
-        full:"/images/photo/lemons.jpg",
-        thumb:"/images/photo/thumbs/lemons.jpg"
+        full:"/build/images/photo/lemons.jpg",
+        thumb:"/build/images/photo/thumbs/lemons.jpg"
     },
     {
-        full:"/images/photo/Necklace.jpg",
-        thumb:"/images/photo/thumbs/Necklace.jpg"
+        full:"/build/images/photo/Necklace.jpg",
+        thumb:"/build/images/photo/thumbs/Necklace.jpg"
     },
     {
-        full:"/images/photo/painting.jpg",
-        thumb:"/images/photo/thumbs/painting.jpg"
+        full:"/build/images/photo/painting.jpg",
+        thumb:"/build/images/photo/thumbs/painting.jpg"
     },
     {
-        full:"/images/photo/painting-2.jpg",
-        thumb:"/images/photo/thumbs/painting-2.jpg"
+        full:"/build/images/photo/painting-2.jpg",
+        thumb:"/build/images/photo/thumbs/painting-2.jpg"
     },
     {
-        full:"/images/photo/PBR-hat.jpg",
-        thumb:"/images/photo/thumbs/PBR-hat.jpg"
+        full:"/build/images/photo/PBR-hat.jpg",
+        thumb:"/build/images/photo/thumbs/PBR-hat.jpg"
     },
     {
-        full:"/images/photo/pillow-sham.jpg",
-        thumb:"/images/photo/thumbs/pillow-sham.jpg"
+        full:"/build/images/photo/pillow-sham.jpg",
+        thumb:"/build/images/photo/thumbs/pillow-sham.jpg"
     },
     {
-        full:"/images/photo/pillows.jpg",
-        thumb:"/images/photo/thumbs/pillows.jpg"
+        full:"/build/images/photo/pillows.jpg",
+        thumb:"/build/images/photo/thumbs/pillows.jpg"
     },
     {
-        full:"/images/photo/purple-hat.jpg",
-        thumb:"/images/photo/thumbs/purple-hat.jpg"
+        full:"/build/images/photo/purple-hat.jpg",
+        thumb:"/build/images/photo/thumbs/purple-hat.jpg"
     },
     {
-        full:"/images/photo/red-shorts.jpg",
-        thumb:"/images/photo/thumbs/red-shorts.jpg"
+        full:"/build/images/photo/red-shorts.jpg",
+        thumb:"/build/images/photo/thumbs/red-shorts.jpg"
     },
     {
-        full:"/images/photo/red-tool-kit.jpg",
-        thumb:"/images/photo/thumbs/red-tool-kit.jpg"
+        full:"/build/images/photo/red-tool-kit.jpg",
+        thumb:"/build/images/photo/thumbs/red-tool-kit.jpg"
     },
     {
-        full:"/images/photo/sandals.jpg",
-        thumb:"/images/photo/thumbs/sandals.jpg"
+        full:"/build/images/photo/sandals.jpg",
+        thumb:"/build/images/photo/thumbs/sandals.jpg"
     },
     {
-        full:"/images/photo/starbucks-pitcher.jpg",
-        thumb:"/images/photo/thumbs/starbucks-pitcher.jpg"
+        full:"/build/images/photo/starbucks-pitcher.jpg",
+        thumb:"/build/images/photo/thumbs/starbucks-pitcher.jpg"
     },
     {
-        full:"/images/photo/tele.jpg",
-        thumb:"/images/photo/thumbs/tele.jpg"
+        full:"/build/images/photo/tele.jpg",
+        thumb:"/build/images/photo/thumbs/tele.jpg"
     },
     {
-        full:"/images/photo/velvet-floral-hat.jpg",
-        thumb:"/images/photo/thumbs/velvet-floral-hat.jpg"
+        full:"/build/images/photo/velvet-floral-hat.jpg",
+        thumb:"/build/images/photo/thumbs/velvet-floral-hat.jpg"
     },
     {
-        full:"/images/photo/vtg-camera.jpg",
-        thumb:"/images/photo/thumbs/vtg-camera.jpg"
+        full:"/build/images/photo/vtg-camera.jpg",
+        thumb:"/build/images/photo/thumbs/vtg-camera.jpg"
     }
 ]
 

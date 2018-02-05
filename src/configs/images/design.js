@@ -1,179 +1,179 @@
 const designImages = [
     {
-        full:"/images/design/soquaint-logo-collage.jpg",
-        thumb:"/images/design/thumbs/soquaint-logo-collage.jpg"
+        full:"/build/images/design/soquaint-logo-collage.jpg",
+        thumb:"/build/images/design/thumbs/soquaint-logo-collage.jpg"
     },
     {
-        full:"/images/design/business-card-1.jpg",
-        thumb:"/images/design/thumbs/business-card-1.jpg"
+        full:"/build/images/design/business-card-1.jpg",
+        thumb:"/build/images/design/thumbs/business-card-1.jpg"
     },
     {
-        full:"/images/design/business-card-2.jpg",
-        thumb:"/images/design/thumbs/business-card-2.jpg"
+        full:"/build/images/design/business-card-2.jpg",
+        thumb:"/build/images/design/thumbs/business-card-2.jpg"
     },
     {
-        full:"/images/design/FirstTimeServiceSpecialsCard-1.jpg",
-        thumb:"/images/design/thumbs/FirstTimeServiceSpecialsCard-1.jpg"
+        full:"/build/images/design/FirstTimeServiceSpecialsCard-1.jpg",
+        thumb:"/build/images/design/thumbs/FirstTimeServiceSpecialsCard-1.jpg"
     },
     {
-        full:"/images/design/FirstTimeServiceSpecialsCard-2.jpg",
-        thumb:"/images/design/thumbs/FirstTimeServiceSpecialsCard-2.jpg"
+        full:"/build/images/design/FirstTimeServiceSpecialsCard-2.jpg",
+        thumb:"/build/images/design/thumbs/FirstTimeServiceSpecialsCard-2.jpg"
     },
     {
-        full:"/images/design/food-characters.jpg",
-        thumb:"/images/design/thumbs/food-characters.jpg"
+        full:"/build/images/design/food-characters.jpg",
+        thumb:"/build/images/design/thumbs/food-characters.jpg"
     },
     {
-        full:"/images/design/gabby-logo.jpg",
-        thumb:"/images/design/thumbs/gabby-logo.jpg"
+        full:"/build/images/design/gabby-logo.jpg",
+        thumb:"/build/images/design/thumbs/gabby-logo.jpg"
     },
     {
-        full:"/images/design/jungle-babe.jpg",
-        thumb:"/images/design/thumbs/jungle-babe.jpg"
+        full:"/build/images/design/jungle-babe.jpg",
+        thumb:"/build/images/design/thumbs/jungle-babe.jpg"
     },
     {
-        full:"/images/design/soquaint-house.jpg",
-        thumb:"/images/design/thumbs/soquaint-house.jpg"
+        full:"/build/images/design/soquaint-house.jpg",
+        thumb:"/build/images/design/thumbs/soquaint-house.jpg"
     },
     {
-        full:"/images/design/styling-tips.jpg",
-        thumb:"/images/design/thumbs/styling-tips.jpg"
+        full:"/build/images/design/styling-tips.jpg",
+        thumb:"/build/images/design/thumbs/styling-tips.jpg"
     },
     {
-        full:"/images/design/more-styling-tips.jpg",
-        thumb:"/images/design/thumbs/more-styling-tips.jpg"
+        full:"/build/images/design/more-styling-tips.jpg",
+        thumb:"/build/images/design/thumbs/more-styling-tips.jpg"
     },
     {
-        full:"/images/design/photo-tips.jpg",
-        thumb:"/images/design/thumbs/photo-tips.jpg"
+        full:"/build/images/design/photo-tips.jpg",
+        thumb:"/build/images/design/thumbs/photo-tips.jpg"
     },
     {
-        full:"/images/design/keep-on-keeping-on-kc.jpg",
-        thumb:"/images/design/thumbs/keep-on-keeping-on-kc.jpg"
+        full:"/build/images/design/keep-on-keeping-on-kc.jpg",
+        thumb:"/build/images/design/thumbs/keep-on-keeping-on-kc.jpg"
     },
     {
-        full:"/images/design/eyes.jpg",
-        thumb:"/images/design/thumbs/eyes.jpg"
+        full:"/build/images/design/eyes.jpg",
+        thumb:"/build/images/design/thumbs/eyes.jpg"
     },
     {
-        full:"/images/design/kdot.jpg",
-        thumb:"/images/design/thumbs/kdot.jpg"
+        full:"/build/images/design/kdot.jpg",
+        thumb:"/build/images/design/thumbs/kdot.jpg"
     },
     {
-        full:"/images/design/cat-tshirt.jpg",
-        thumb:"/images/design/thumbs/cat-tshirt.jpg"
+        full:"/build/images/design/cat-tshirt.jpg",
+        thumb:"/build/images/design/thumbs/cat-tshirt.jpg"
     },
     {
-        full:"/images/design/cat-tshirt-layout.jpg",
-        thumb:"/images/design/thumbs/cat-tshirt-layout.jpg"
+        full:"/build/images/design/cat-tshirt-layout.jpg",
+        thumb:"/build/images/design/thumbs/cat-tshirt-layout.jpg"
     },
     {
-        full:"/images/design/Studio-324-Color-Logos.jpg",
-        thumb:"/images/design/thumbs/Studio-324-Color-Logos.jpg"
+        full:"/build/images/design/Studio-324-Color-Logos.jpg",
+        thumb:"/build/images/design/thumbs/Studio-324-Color-Logos.jpg"
     },
     {
-        full:"/images/design/STUDIO-324-HEXAGON-LOGO-black.jpg",
-        thumb:"/images/design/thumbs/STUDIO-324-HEXAGON-LOGO-black.jpg"
+        full:"/build/images/design/STUDIO-324-HEXAGON-LOGO-black.jpg",
+        thumb:"/build/images/design/thumbs/STUDIO-324-HEXAGON-LOGO-black.jpg"
     },
     {
-        full:"/images/design/STUDIO-324-HEXAGON-LOGO-yellow-white.jpg",
-        thumb:"/images/design/thumbs/STUDIO-324-HEXAGON-LOGO-yellow-white.jpg"
+        full:"/build/images/design/STUDIO-324-HEXAGON-LOGO-yellow-white.jpg",
+        thumb:"/build/images/design/thumbs/STUDIO-324-HEXAGON-LOGO-yellow-white.jpg"
     },
     {
-        full:"/images/design/lurk.jpg",
-        thumb:"/images/design/thumbs/lurk.jpg"
+        full:"/build/images/design/lurk.jpg",
+        thumb:"/build/images/design/thumbs/lurk.jpg"
     },
     {
-        full:"/images/design/god-merch.jpg",
-        thumb:"/images/design/thumbs/god-merch.jpg"
+        full:"/build/images/design/god-merch.jpg",
+        thumb:"/build/images/design/thumbs/god-merch.jpg"
     },
     {
-        full:"/images/design/vi+amin_+ee.jpg",
-        thumb:"/images/design/thumbs/vi+amin_+ee.jpg"
+        full:"/build/images/design/vi+amin_+ee.jpg",
+        thumb:"/build/images/design/thumbs/vi+amin_+ee.jpg"
     },
     {
-        full:"/images/design/picnic-party.jpg",
-        thumb:"/images/design/thumbs/picnic-party.jpg"
+        full:"/build/images/design/picnic-party.jpg",
+        thumb:"/build/images/design/thumbs/picnic-party.jpg"
     },
     {
-        full:"/images/design/pineapples-tshirt.jpg",
-        thumb:"/images/design/thumbs/pineapples-tshirt.jpg"
+        full:"/build/images/design/pineapples-tshirt.jpg",
+        thumb:"/build/images/design/thumbs/pineapples-tshirt.jpg"
     },
     {
-        full:"/images/design/pineapple-tshirt-layout.jpg",
-        thumb:"/images/design/thumbs/pineapple-tshirt-layout.jpg"
+        full:"/build/images/design/pineapple-tshirt-layout.jpg",
+        thumb:"/build/images/design/thumbs/pineapple-tshirt-layout.jpg"
     },
     {
-        full:"/images/design/baenanacolor.jpg",
-        thumb:"/images/design/thumbs/baenanacolor.jpg"
+        full:"/build/images/design/baenanacolor.jpg",
+        thumb:"/build/images/design/thumbs/baenanacolor.jpg"
     },
     {
-        full:"/images/design/cat.jpg",
-        thumb:"/images/design/thumbs/cat.jpg"
+        full:"/build/images/design/cat.jpg",
+        thumb:"/build/images/design/thumbs/cat.jpg"
     },
     {
-        full:"/images/design/heads-tshirt.jpg",
-        thumb:"/images/design/thumbs/heads-tshirt.jpg"
+        full:"/build/images/design/heads-tshirt.jpg",
+        thumb:"/build/images/design/thumbs/heads-tshirt.jpg"
     },
     {
-        full:"/images/design/sad-but-rad-tshirt.jpg",
-        thumb:"/images/design/thumbs/sad-but-rad-tshirt.jpg"
+        full:"/build/images/design/sad-but-rad-tshirt.jpg",
+        thumb:"/build/images/design/thumbs/sad-but-rad-tshirt.jpg"
     },
     {
-        full:"/images/design/cone.jpg",
-        thumb:"/images/design/thumbs/cone.jpg"
+        full:"/build/images/design/cone.jpg",
+        thumb:"/build/images/design/thumbs/cone.jpg"
     },
     {
-        full:"/images/design/back2body-gifcard1.jpg",
-        thumb:"/images/design/thumbs/back2body-gifcard1.jpg"
+        full:"/build/images/design/back2body-gifcard1.jpg",
+        thumb:"/build/images/design/thumbs/back2body-gifcard1.jpg"
     },
     {
-        full:"/images/design/back2body-gifcard2.jpg",
-        thumb:"/images/design/thumbs/back2body-gifcard2.jpg"
+        full:"/build/images/design/back2body-gifcard2.jpg",
+        thumb:"/build/images/design/thumbs/back2body-gifcard2.jpg"
     },
     {
-        full:"/images/design/hugo.jpg",
-        thumb:"/images/design/thumbs/hugo.jpg"
+        full:"/build/images/design/hugo.jpg",
+        thumb:"/build/images/design/thumbs/hugo.jpg"
     },
     {
-        full:"/images/design/waynea-palooza-logo.jpg",
-        thumb:"/images/design/thumbs/waynea-palooza-logo.jpg"
+        full:"/build/images/design/waynea-palooza-logo.jpg",
+        thumb:"/build/images/design/thumbs/waynea-palooza-logo.jpg"
     },
     {
-        full:"/images/design/shoe-photo-guide.jpg",
-        thumb:"/images/design/thumbs/shoe-photo-guide.jpg"
+        full:"/build/images/design/shoe-photo-guide.jpg",
+        thumb:"/build/images/design/thumbs/shoe-photo-guide.jpg"
     },
     {
-        full:"/images/design/feelings.jpg",
-        thumb:"/images/design/thumbs/feelings.jpg"
+        full:"/build/images/design/feelings.jpg",
+        thumb:"/build/images/design/thumbs/feelings.jpg"
     },
     {
-        full:"/images/design/all-tshirts.jpg",
-        thumb:"/images/design/thumbs/all-tshirts.jpg"
+        full:"/build/images/design/all-tshirts.jpg",
+        thumb:"/build/images/design/thumbs/all-tshirts.jpg"
     },
     {
-        full:"/images/design/hands.jpg",
-        thumb:"/images/design/thumbs/hands.jpg"
+        full:"/build/images/design/hands.jpg",
+        thumb:"/build/images/design/thumbs/hands.jpg"
     },
     {
-        full:"/images/design/house_party.jpg",
-        thumb:"/images/design/thumbs/house_party.jpg"
+        full:"/build/images/design/house_party.jpg",
+        thumb:"/build/images/design/thumbs/house_party.jpg"
     },
     {
-        full:"/images/design/midwestzombie_hands.jpg",
-        thumb:"/images/design/thumbs/midwestzombie_hands.jpg"
+        full:"/build/images/design/midwestzombie_hands.jpg",
+        thumb:"/build/images/design/thumbs/midwestzombie_hands.jpg"
     },
     {
-        full:"/images/design/pineapplecolor.jpg",
-        thumb:"/images/design/thumbs/pineapplecolor.jpg"
+        full:"/build/images/design/pineapplecolor.jpg",
+        thumb:"/build/images/design/thumbs/pineapplecolor.jpg"
     },
     {
-        full:"/images/design/recycling-project.jpg",
-        thumb:"/images/design/thumbs/recycling-project.jpg"
+        full:"/build/images/design/recycling-project.jpg",
+        thumb:"/build/images/design/thumbs/recycling-project.jpg"
     },
     {
-        full:"/images/design/EX_TEARS.jpg",
-        thumb:"/images/design/thumbs/EX_TEARS.jpg"
+        full:"/build/images/design/EX_TEARS.jpg",
+        thumb:"/build/images/design/thumbs/EX_TEARS.jpg"
     }
 ]
 
