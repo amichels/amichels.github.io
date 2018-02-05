@@ -13,7 +13,7 @@ const ContentImages = (props) => {
     <ContentImagesWrap className="js-portfolio">
       {images.map((image, i) => {
         return (
-          <a key={i} href={image.full}>
+          <a key={i} href={image.full} target="_blank">
             <ContentImage src={image.thumb} alt="Click to view image."/>
           </a>
         )
