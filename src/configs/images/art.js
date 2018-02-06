@@ -3,23 +3,23 @@ const artImages = [
         full:"/build/images/art/arm.jpg",
         thumb:"/build/images/art/thumbs/arm.jpg"
     },
-    {       
+    {
         full:"/build/images/art/animation.jpg",
         thumb:"/build/images/art/thumbs/animation.jpg"
     },
-    { 
+    {
         full:"/build/images/art/collage1.jpg",
         thumb:"/build/images/art/thumbs/collage1.jpg"
     },
-    { 
+    {
         full:"/build/images/art/collage2.jpg",
         thumb:"/build/images/art/thumbs/collage2.jpg"
     },
-    { 
+    {
         full:"/build/images/art/collage3.jpg",
         thumb:"/build/images/art/thumbs/collage3.jpg"
     },
-    { 
+    {
         full:"/build/images/art/figure1.jpg",
         thumb:"/build/images/art/thumbs/figure1.jpg"
     },
