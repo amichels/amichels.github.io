@@ -64,10 +64,6 @@ const designImages = [
         thumb:"/build/images/design/thumbs/cat-tshirt.jpg"
     },
     {
-        full:"/build/images/design/cat-tshirt-layout.jpg",
-        thumb:"/build/images/design/thumbs/cat-tshirt-layout.jpg"
-    },
-    {
         full:"/build/images/design/Studio-324-Color-Logos.jpg",
         thumb:"/build/images/design/thumbs/Studio-324-Color-Logos.jpg"
     },
@@ -174,6 +170,10 @@ const designImages = [
     {
         full:"/build/images/design/EX_TEARS.jpg",
         thumb:"/build/images/design/thumbs/EX_TEARS.jpg"
+    },
+    {
+        full:"/build/images/design/cat-tshirt-layout.jpg",
+        thumb:"/build/images/design/thumbs/cat-tshirt-layout.jpg"
     }
 ]
 
