@@ -7,7 +7,7 @@ const ContentAbout = (props) => {
 
   return (
     <ContentTextWrap>
-        <img src="/images/profile-img.png" />
+        <img src="/build/images/profile-img.png" />
         <p>
             Hello!
         </p>
