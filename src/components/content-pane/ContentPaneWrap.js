@@ -7,7 +7,6 @@ import mq from '../../configs/mediaQueries';
 const setActiveStyles = (active) => {
   if(active) {
     return `
-      background-color: ${colors.salmon};
       height: 100%;
 
       @media (min-width: ${mq.xs}px) {
@@ -26,7 +25,7 @@ const setActiveStyles = (active) => {
 const ContentPaneWrap = PaneWrap.extend`
   background-color: white;
   transition: background-color 1s ease-in, width 1s ease-in;
-  min-height: 66.66667vh;
+  min-height: 60vh;
 
   @media (min-width: ${mq.xs}px) {
     height: 30vh;

@@ -1,5 +1,8 @@
 import styled from 'styled-components';
 
+// configs
+import colors from '../../configs/colors';
+
 const setActiveStyles = (active) => {
   if(active) {
     return `
@@ -17,6 +20,7 @@ const ContentCon = styled.div`
   text-align: center;
   position: absolute;
   top: 0;
+  background-color: ${colors.salmon};
 
   ${props => setActiveStyles(props.active)};
 `

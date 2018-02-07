@@ -28,7 +28,7 @@ const setActiveStyles = (active) => {
 const TitlePaneWrap = PaneWrap.extend`
   background: linear-gradient(to bottom, ${colors.pink} 1%, ${colors.yellow} 100%);
   transition: width: 1s ease-in;
-  height: 33.3333vh;
+  height: 40vh;
   display: flex;
 
   @media (min-width: ${mq.xs}px) {
