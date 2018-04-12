@@ -4,6 +4,10 @@ const designImages = [
         thumb:"/build/images/design/thumbs/soquaint-logo-collage.jpg"
     },
     {
+        full:"/build/images/design/abc-shs-h.jpg",
+        thumb:"/build/images/design/thumbs/abc-shs-h.jpg"
+    },
+    {
         full:"/build/images/design/business-card-1.jpg",
         thumb:"/build/images/design/thumbs/business-card-1.jpg"
     },
@@ -52,10 +56,6 @@ const designImages = [
         thumb:"/build/images/design/thumbs/keep-on-keeping-on-kc.jpg"
     },
     {
-        full:"/build/images/design/eyes.jpg",
-        thumb:"/build/images/design/thumbs/eyes.jpg"
-    },
-    {
         full:"/build/images/design/kdot.jpg",
         thumb:"/build/images/design/thumbs/kdot.jpg"
     },
@@ -76,20 +76,12 @@ const designImages = [
         thumb:"/build/images/design/thumbs/STUDIO-324-HEXAGON-LOGO-yellow-white.jpg"
     },
     {
+        full:"/build/images/design/ombre-jacket-babe.jpg",
+        thumb:"/build/images/design/thumbs/ombre-jacket-babe.jpg"
+    },
+    {
         full:"/build/images/design/lurk.jpg",
         thumb:"/build/images/design/thumbs/lurk.jpg"
-    },
-    {
-        full:"/build/images/design/god-merch.jpg",
-        thumb:"/build/images/design/thumbs/god-merch.jpg"
-    },
-    {
-        full:"/build/images/design/vi+amin_+ee.jpg",
-        thumb:"/build/images/design/thumbs/vi+amin_+ee.jpg"
-    },
-    {
-        full:"/build/images/design/picnic-party.jpg",
-        thumb:"/build/images/design/thumbs/picnic-party.jpg"
     },
     {
         full:"/build/images/design/pineapples-tshirt.jpg",
@@ -108,14 +100,6 @@ const designImages = [
         thumb:"/build/images/design/thumbs/cat.jpg"
     },
     {
-        full:"/build/images/design/heads-tshirt.jpg",
-        thumb:"/build/images/design/thumbs/heads-tshirt.jpg"
-    },
-    {
-        full:"/build/images/design/sad-but-rad-tshirt.jpg",
-        thumb:"/build/images/design/thumbs/sad-but-rad-tshirt.jpg"
-    },
-    {
         full:"/build/images/design/cone.jpg",
         thumb:"/build/images/design/thumbs/cone.jpg"
     },
@@ -128,6 +112,10 @@ const designImages = [
         thumb:"/build/images/design/thumbs/back2body-gifcard2.jpg"
     },
     {
+        full:"/build/images/design/B2B-FACE+SKIN MENU_3.jpg",
+        thumb:"/build/images/design/thumbs/B2B-FACE+SKIN MENU_3.jpg"
+    },
+    {
         full:"/build/images/design/hugo.jpg",
         thumb:"/build/images/design/thumbs/hugo.jpg"
     },
@@ -138,6 +126,19 @@ const designImages = [
     {
         full:"/build/images/design/shoe-photo-guide.jpg",
         thumb:"/build/images/design/thumbs/shoe-photo-guide.jpg"
+    },
+
+    {
+        full:"/build/images/design/sonic-50c-corndogs.jpg",
+        thumb:"/build/images/design/thumbs/sonic-50c-corndogs.jpg"
+    },
+    {
+        full:"/build/images/design/soquaint-logo-2.jpg",
+        thumb:"/build/images/design/thumbs/soquaint-logo-2.jpg"
+    },
+    {
+        full:"/build/images/design/west-18th-sponsors.jpg",
+        thumb:"/build/images/design/thumbs/west-18th-sponsors.jpg"
     },
     {
         full:"/build/images/design/feelings.jpg",

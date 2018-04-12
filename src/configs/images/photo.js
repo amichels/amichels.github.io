@@ -3,33 +3,9 @@ const photoImages = [
         full:"/build/images/photo/backpack1.jpg",
         thumb:"/build/images/photo/thumbs/backpack1.jpg"
     },
-    {       
-        full:"/build/images/photo/backpack2.jpg",
-        thumb:"/build/images/photo/thumbs/backpack2.jpg"
-    },
-    { 
-        full:"/build/images/photo/backpack3.jpg",
-        thumb:"/build/images/photo/thumbs/backpack3.jpg"
-    },
     { 
         full:"/build/images/photo/blackbelt1.jpg",
         thumb:"/build/images/photo/thumbs/blackbelt1.jpg"
-    },
-    { 
-        full:"/build/images/photo/blackbelt2.jpg",
-        thumb:"/build/images/photo/thumbs/blackbelt2.jpg"
-    },
-    { 
-        full:"/build/images/photo/cat1.jpg",
-        thumb:"/build/images/photo/thumbs/cat1.jpg"
-    },
-    {
-        full:"/build/images/photo/cat2.jpg",
-        thumb:"/build/images/photo/thumbs/cat2.jpg"
-    },
-    {
-        full:"/build/images/photo/cat3.jpg",
-        thumb:"/build/images/photo/thumbs/cat3.jpg"
     },
     {
         full:"/build/images/photo/blue-wool-hat.jpg",
@@ -52,56 +28,8 @@ const photoImages = [
         thumb:"/build/images/photo/thumbs/denimbag1.jpg"
     },
     {
-        full:"/build/images/photo/denimbag2.jpg",
-        thumb:"/build/images/photo/thumbs/denimbag2.jpg"
-    },
-    {
-        full:"/build/images/photo/denimbag3.jpg",
-        thumb:"/build/images/photo/thumbs/denimbag3.jpg"
-    },
-    {
-        full:"/build/images/photo/denimbag4.jpg",
-        thumb:"/build/images/photo/thumbs/denimbag4.jpg"
-    },
-    {
         full:"/build/images/photo/lionbelt1.jpg",
         thumb:"/build/images/photo/thumbs/lionbelt1.jpg"
-    },
-    {
-        full:"/build/images/photo/lionbelt2.jpg",
-        thumb:"/build/images/photo/thumbs/lionbelt2.jpg"
-    },
-    {
-        full:"/build/images/photo/lionbelt3.jpg",
-        thumb:"/build/images/photo/thumbs/lionbelt3.jpg"
-    },
-    {
-        full:"/build/images/photo/lionbelt4.jpg",
-        thumb:"/build/images/photo/thumbs/lionbelt4.jpg"
-    },
-    {
-        full:"/build/images/photo/lionbelt5.jpg",
-        thumb:"/build/images/photo/thumbs/lionbelt5.jpg"
-    },
-    {
-        full:"/build/images/photo/massager1.jpg",
-        thumb:"/build/images/photo/thumbs/massager1.jpg"
-    },
-    {
-        full:"/build/images/photo/massager2.jpg",
-        thumb:"/build/images/photo/thumbs/massager2.jpg"
-    },
-    {
-        full:"/build/images/photo/massager3.jpg",
-        thumb:"/build/images/photo/thumbs/massager3.jpg"
-    },
-    {
-        full:"/build/images/photo/massager4.jpg",
-        thumb:"/build/images/photo/thumbs/massager4.jpg"
-    },
-    {
-        full:"/build/images/photo/massager5.jpg",
-        thumb:"/build/images/photo/thumbs/massager5.jpg"
     },
     {
         full:"/build/images/photo/et.jpg",
@@ -120,10 +48,6 @@ const photoImages = [
         thumb:"/build/images/photo/thumbs/lemons.jpg"
     },
     {
-        full:"/build/images/photo/Necklace.jpg",
-        thumb:"/build/images/photo/thumbs/Necklace.jpg"
-    },
-    {
         full:"/build/images/photo/painting.jpg",
         thumb:"/build/images/photo/thumbs/painting.jpg"
     },
@@ -140,10 +64,6 @@ const photoImages = [
         thumb:"/build/images/photo/thumbs/pillow-sham.jpg"
     },
     {
-        full:"/build/images/photo/pillows.jpg",
-        thumb:"/build/images/photo/thumbs/pillows.jpg"
-    },
-    {
         full:"/build/images/photo/purple-hat.jpg",
         thumb:"/build/images/photo/thumbs/purple-hat.jpg"
     },
@@ -158,10 +78,6 @@ const photoImages = [
     {
         full:"/build/images/photo/sandals.jpg",
         thumb:"/build/images/photo/thumbs/sandals.jpg"
-    },
-    {
-        full:"/build/images/photo/starbucks-pitcher.jpg",
-        thumb:"/build/images/photo/thumbs/starbucks-pitcher.jpg"
     },
     {
         full:"/build/images/photo/tele.jpg",
