@@ -127,12 +127,12 @@ const designImages = [
     },
     // ROW 3
     {
-        full:"/build/images/design/sonic-50c-corndogs.jpg",
-        thumb:"/build/images/design/thumbs/sonic-50c-corndogs.jpg"
-    },
-    {
         full:"/build/images/design/soquaint-logo-2.jpg",
         thumb:"/build/images/design/thumbs/soquaint-logo-2.jpg"
+    },
+    {
+        full:"/build/images/design/sonic-50c-corndogs.jpg",
+        thumb:"/build/images/design/thumbs/sonic-50c-corndogs.jpg"
     },
     {
         full:"/build/images/design/west-18th-sponsors.jpg",
