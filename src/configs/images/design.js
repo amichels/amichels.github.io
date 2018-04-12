@@ -1,4 +1,5 @@
 const designImages = [
+    // ROW 1
     {
         full:"/build/images/design/soquaint-logo-collage.jpg",
         thumb:"/build/images/design/thumbs/soquaint-logo-collage.jpg"
@@ -63,6 +64,7 @@ const designImages = [
         full:"/build/images/design/cat-tshirt.jpg",
         thumb:"/build/images/design/thumbs/cat-tshirt.jpg"
     },
+    // ROW 2
     {
         full:"/build/images/design/Studio-324-Color-Logos.jpg",
         thumb:"/build/images/design/thumbs/Studio-324-Color-Logos.jpg"
@@ -78,6 +80,22 @@ const designImages = [
     {
         full:"/build/images/design/ombre-jacket-babe.jpg",
         thumb:"/build/images/design/thumbs/ombre-jacket-babe.jpg"
+    },
+    {
+        full:"/build/images/design/back2body-gifcard1.jpg",
+        thumb:"/build/images/design/thumbs/back2body-gifcard1.jpg"
+    },
+    {
+        full:"/build/images/design/back2body-gifcard2.jpg",
+        thumb:"/build/images/design/thumbs/back2body-gifcard2.jpg"
+    },
+    {
+        full:"/build/images/design/B2B-FACE+SKIN MENU_3.jpg",
+        thumb:"/build/images/design/thumbs/B2B-FACE+SKIN MENU_3.jpg"
+    },
+    {
+        full:"/build/images/design/B2B-FACE+SKIN MENU_32.jpg",
+        thumb:"/build/images/design/thumbs/B2B-FACE+SKIN MENU_32.jpg"
     },
     {
         full:"/build/images/design/lurk.jpg",
@@ -104,30 +122,10 @@ const designImages = [
         thumb:"/build/images/design/thumbs/cone.jpg"
     },
     {
-        full:"/build/images/design/back2body-gifcard1.jpg",
-        thumb:"/build/images/design/thumbs/back2body-gifcard1.jpg"
-    },
-    {
-        full:"/build/images/design/back2body-gifcard2.jpg",
-        thumb:"/build/images/design/thumbs/back2body-gifcard2.jpg"
-    },
-    {
-        full:"/build/images/design/B2B-FACE+SKIN MENU_3.jpg",
-        thumb:"/build/images/design/thumbs/B2B-FACE+SKIN MENU_3.jpg"
-    },
-    {
         full:"/build/images/design/hugo.jpg",
         thumb:"/build/images/design/thumbs/hugo.jpg"
     },
-    {
-        full:"/build/images/design/waynea-palooza-logo.jpg",
-        thumb:"/build/images/design/thumbs/waynea-palooza-logo.jpg"
-    },
-    {
-        full:"/build/images/design/shoe-photo-guide.jpg",
-        thumb:"/build/images/design/thumbs/shoe-photo-guide.jpg"
-    },
-
+    // ROW 3
     {
         full:"/build/images/design/sonic-50c-corndogs.jpg",
         thumb:"/build/images/design/thumbs/sonic-50c-corndogs.jpg"
@@ -139,6 +137,14 @@ const designImages = [
     {
         full:"/build/images/design/west-18th-sponsors.jpg",
         thumb:"/build/images/design/thumbs/west-18th-sponsors.jpg"
+    },
+    {
+        full:"/build/images/design/waynea-palooza-logo.jpg",
+        thumb:"/build/images/design/thumbs/waynea-palooza-logo.jpg"
+    },
+    {
+        full:"/build/images/design/shoe-photo-guide.jpg",
+        thumb:"/build/images/design/thumbs/shoe-photo-guide.jpg"
     },
     {
         full:"/build/images/design/feelings.jpg",
